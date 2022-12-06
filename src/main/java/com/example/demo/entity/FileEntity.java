@@ -16,7 +16,7 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "FILES")
-public class FileDb {
+public class FileEntity {
     @Id
     private String id;
     private String name;
